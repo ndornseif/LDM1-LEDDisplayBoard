@@ -3,7 +3,8 @@ Adapter board to drive HDSP-C2x3 seven segment displays.
 Hardware version: 1.2.0  
 ## Overview
 This board can be mounted underneath a HSDP-C2x3 display to allow easy driving via MCU.  
-It uses a SN74HC594DR shift register and TBD62783AFWG driver IC to control the common cathode display module.  
+It uses a SN74HC594DR shift register and TBD62783AFWG driver IC to control the display.  
+This is necessary because HDSP-C2x3 are common cathode modules.  
 Resistor values are selected for a 10-13V supply.
 ## Pinout
 - DRIVE: Input for 12V LED driving voltage.
